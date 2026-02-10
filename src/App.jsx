@@ -1,14 +1,13 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { useState } from 'react';
 
-import Dashboard from './Dashboard';
+import Dashboard from './ Dashboard';
 import HotelList from './HotelList';
 import Sidebar from './Sidebar';
 import Login from './Login';
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
-
   return (
     <Router>
       <Routes>
